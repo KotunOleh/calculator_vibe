@@ -1,0 +1,230 @@
+{
+  "Kyiv": [
+    {
+      "destination": "Lviv",
+      "price": 500,
+      "duration_hours": 5,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Lviv",
+      "price": 450,
+      "duration_hours": 8,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Odesa",
+      "price": 650,
+      "duration_hours": 6,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Odesa",
+      "price": 1200,
+      "duration_hours": 1,
+      "transport_type": "Plane"
+    },
+    {
+      "destination": "Kharkiv",
+      "price": 550,
+      "duration_hours": 5.5,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Warsaw",
+      "price": 1800,
+      "duration_hours": 1.5,
+      "transport_type": "Plane"
+    },
+    {
+      "destination": "Warsaw",
+      "price": 900,
+      "duration_hours": 15,
+      "transport_type": "Bus"
+    }
+  ],
+  "Lviv": [
+    {
+      "destination": "Kyiv",
+      "price": 500,
+      "duration_hours": 5,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Kyiv",
+      "price": 450,
+      "duration_hours": 8,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Lutsk",
+      "price": 150,
+      "duration_hours": 2,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Warsaw",
+      "price": 700,
+      "duration_hours": 6,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Prague",
+      "price": 1500,
+      "duration_hours": 12,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Berlin",
+      "price": 3500,
+      "duration_hours": 2,
+      "transport_type": "Plane"
+    }
+  ],
+  "Odesa": [
+    {
+      "destination": "Kyiv",
+      "price": 650,
+      "duration_hours": 6,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Lviv",
+      "price": 700,
+      "duration_hours": 10,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Kharkiv",
+      "price": 800,
+      "duration_hours": 12,
+      "transport_type": "Train"
+    }
+  ],
+  "Kharkiv": [
+    {
+      "destination": "Kyiv",
+      "price": 550,
+      "duration_hours": 5.5,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Dnipro",
+      "price": 200,
+      "duration_hours": 3,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Lviv",
+      "price": 900,
+      "duration_hours": 14,
+      "transport_type": "Train"
+    }
+  ],
+  "Dnipro": [
+    {
+      "destination": "Kharkiv",
+      "price": 200,
+      "duration_hours": 3,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Kyiv",
+      "price": 600,
+      "duration_hours": 6,
+      "transport_type": "Train"
+    }
+  ],
+  "Lutsk": [
+    {
+      "destination": "Lviv",
+      "price": 150,
+      "duration_hours": 2,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Warsaw",
+      "price": 500,
+      "duration_hours": 5,
+      "transport_type": "Bus"
+    }
+  ],
+  "Warsaw": [
+    {
+      "destination": "Kyiv",
+      "price": 1800,
+      "duration_hours": 1.5,
+      "transport_type": "Plane"
+    },
+    {
+      "destination": "Lviv",
+      "price": 700,
+      "duration_hours": 6,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Berlin",
+      "price": 1200,
+      "duration_hours": 6,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Berlin",
+      "price": 900,
+      "duration_hours": 5,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Prague",
+      "price": 1000,
+      "duration_hours": 8,
+      "transport_type": "Bus"
+    }
+  ],
+  "Berlin": [
+    {
+      "destination": "Warsaw",
+      "price": 1200,
+      "duration_hours": 6,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Warsaw",
+      "price": 900,
+      "duration_hours": 5,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Prague",
+      "price": 600,
+      "duration_hours": 4,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Kyiv",
+      "price": 4000,
+      "duration_hours": 2.5,
+      "transport_type": "Plane"
+    }
+  ],
+  "Prague": [
+    {
+      "destination": "Berlin",
+      "price": 600,
+      "duration_hours": 4,
+      "transport_type": "Train"
+    },
+    {
+      "destination": "Warsaw",
+      "price": 1000,
+      "duration_hours": 8,
+      "transport_type": "Bus"
+    },
+    {
+      "destination": "Lviv",
+      "price": 1500,
+      "duration_hours": 12,
+      "transport_type": "Bus"
+    }
+  ]
+}
