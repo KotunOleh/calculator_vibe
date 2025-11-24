@@ -1,11 +1,11 @@
-from typing import List
+from typing import List, Union
 
 class Route:
     def __init__(self, start_city: str, route_list: List):
         self.route_list = route_list
         self.cities: List[str] = [start_city] + [segment['destination'] for segment in self.route_list]
-        self.price: float | int = sum([segment['price'] for segment in self.route_list])
-        self.duration: float | int = sum([segment['duration_hours'] for segment in self.route_list])
+        self.price: Union[float, int] = sum([segment['price'] for segment in self.route_list])
+        self.duration: Union[float, int] = sum([segment['duration_hours'] for segment in self.route_list])
 
     def describe(self):
         print(f"Маршрут проходить через {len(self.cities)} міст:")
@@ -30,8 +30,8 @@ class Route:
         print(f"""Загальна вартість подорожі {self.price} грн.\n
               Тривалість подорожі: {self.duration}""")
 
-    def get_duration(self) -> float | int:
+    def get_duration(self) -> Union[float, int]:
         return self.duration
     
-    def get_price(self) -> float | int:
+    def get_price(self) -> Union[float, int]:
         return self.price

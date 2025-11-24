@@ -10,7 +10,7 @@ class ISearchStrategy(ABC):
         pass
 
 class CheapestRouteStrategy(ISearchStrategy):
-    def find_route(self, graph_data: dict, start_point: str, end_point: str) -> Route | List:
+    def find_route(self, graph_data: dict, start_point: str, end_point: str):
         print(f"Пошук НАЙДЕШЕВШОГО маршруту з {start_point} до {end_point}...")
         
         #dict to store price to each destination
@@ -75,7 +75,7 @@ class CheapestRouteStrategy(ISearchStrategy):
         return Route(start_point, path)
 
 class FastestRouteStrategy(ISearchStrategy):
-    def find_route(self, graph_data: dict, start_point: str, end_point: str) -> Route:
+    def find_route(self, graph_data: dict, start_point: str, end_point: str):
         print(f"Пошук НАЙШВИДШОГО маршруту з {start_point} до {end_point}...")
         
         #dict to store time for each destination
